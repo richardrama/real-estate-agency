@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={`Copyrights flex justify-center border-gray border-black border-t-[.5px] sm:border-t-[2px] py-[20px] w-full ${styles.boxWidth}`}>
-                <h1 className='text-[12px]'>© 2023 Richard RealEstates by <a href="https://www.github.com/richardrama" target={'_blank'} className='font-[600]'>Richard Rama Arung Bua'.</a> All rights reserved.</h1>
+                <h1 className='text-[12px] sm:text-[16px]'>© 2023 Richard RealEstates by <a href="https://www.github.com/richardrama" target={'_blank'} className='font-[600]'>Richard Rama Arung Bua'.</a> All rights reserved.</h1>
             </div>
         </div>
     )
