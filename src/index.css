@@ -164,6 +164,10 @@
   background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1));
 }
 
+.Footer {
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.1) ;
+}
+
 .Button:hover {
   background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3));
   transition: 0.5s ease-in-out;
@@ -171,4 +175,26 @@
 
 .Service {
   background-color: #f2f3f4;
+  height: 100%;
+}
+
+.Image-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+  box-shadow: inset 0px 0px 700px 200px rgba(0, 0, 0, 0.4) ;
+}
+
+.Image-31 {
+  background: url(./assets/image-31.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blackButton {
+  border: 1px solid #1D1F1F ;
+}
+
+.blackButton:hover {
+  background: transparent;
+  color: #1D1F1F;
 }

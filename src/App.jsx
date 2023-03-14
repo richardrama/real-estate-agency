@@ -1,12 +1,13 @@
 import React from 'react'
-import { Hero, Service } from './components'
+import { Footer, Hero, Service } from './components'
 import styles from './style'
 
 const App = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col overflow-hidden'>
       <Hero />
       <Service />
+      <Footer />
     </div>
   )
 }
